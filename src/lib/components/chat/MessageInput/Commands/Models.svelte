@@ -34,8 +34,13 @@
 		}
 	);
 
+<<<<<<< HEAD
 	$: filteredItems = query
 		? fuse.search(query).map((e) => {
+=======
+	$: filteredItems = command.slice(1)
+		? fuse.search(command.slice(1)).map((e) => {
+>>>>>>> 171021cfa... Merge pull request #17327 from open-webui/dev
 				return e.item;
 			})
 		: $models.filter((model) => !model?.info?.meta?.hidden);

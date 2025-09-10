@@ -5,6 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+<<<<<<< HEAD
 ## [0.6.29] - 2025-09-17
 
 ### Added
@@ -65,6 +66,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - 📺 Widescreen mode option was removed from Channels interface, with all channel layouts now using full-width display. [Commit](https://github.com/open-webui/open-webui/pull/17420/commits/d46b7b8f1b99a8054b55031fe935c8a16d5ec956)
 - 🎛️ The plain textarea input option was deprecated, and the custom text editor is now the standard for all chat inputs. [Commit](https://github.com/open-webui/open-webui/commit/153afd832ccd12a1e5fd99b085008d080872c161)
 
+=======
+>>>>>>> 171021cfa... Merge pull request #17327 from open-webui/dev
 ## [0.6.28] - 2025-09-10
 
 ### Added
